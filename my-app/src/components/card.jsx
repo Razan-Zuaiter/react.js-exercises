@@ -3,7 +3,7 @@ import "../card.css";
 import Img0 from "../assets/11.jpeg";
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
-
+import { FaEdit } from 'react-icons/fa';
 
 const Card = (props) => {
   return (
@@ -13,7 +13,7 @@ const Card = (props) => {
       <div className="overflow">
     
         <img src={Img0} alt="Image of " className="card-img-top" >
-        </img>
+        </img><FaEdit className="icon" > </FaEdit>  
        <img src={props.imgsrc} alt="Image of " className="card-img rounded-circle">
         </img>
         <div className="card-body text-dark">

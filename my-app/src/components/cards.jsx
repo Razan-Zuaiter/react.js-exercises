@@ -35,7 +35,7 @@ class Cards extends Component {
         <br></br>
         
           <div className="row ">
-            <div className="col-6 cardA">
+            <div className="col-5 cardA">
               <Card
                 imgsrc={ImgA}
                 title="Khadeeja"
@@ -44,7 +44,7 @@ class Cards extends Component {
                 git="https://github.com/khadeejah-hamdan"
               />
             </div>
-            <div className="col-4 cardA">
+            <div className="col-5 cardA">
               <Card
                 imgsrc={ImgB}
                 title="Amal"
