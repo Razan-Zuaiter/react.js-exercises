@@ -17,7 +17,7 @@ class Cards extends Component {
     return (
       <div className="row container-fluid d-flex justify-content-center">
         <h2 class="display-4">
-          Meet up our elegant and cute developers ever <hr></hr>{" "}
+        Meet up our most elegant and cutest developers ever <hr></hr>{" "}
           <h3>
             {" "}
             <em> The world needs girl coders to lead it</em>{" "}
@@ -32,7 +32,7 @@ class Cards extends Component {
               imgsrc={Img1}
               title="Aya"
               text="Graphic Designer and Developer "
-              linked="mailto:saraeswed@gmail.com"
+              linked="https://www.linkedin.com/in/ayah-imad"
               git="https://github.com/Abdaljawad-Ayah"
             />
           </div>
@@ -68,7 +68,7 @@ class Cards extends Component {
               imgsrc={Img5}
               title="Sara"
               text=" MIS and Developer"
-              linked="mailto:saraeswed@gmail.com"
+              linked="https://www.linkedin.com/in/sarah-eswed"
               git="https://github.com/Sarah-Eswed"
             />
           </div>
